@@ -1,16 +1,9 @@
 package vn.edu.usth.weather;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
 import android.util.Log;
 
 
@@ -25,7 +18,7 @@ public class WeatherActivity extends AppCompatActivity {
         Log.i(tag, "on create...");
 
         ForecastActivity firstFragment = new ForecastActivity();
-        getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, firstFragment).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
     }
 
     @Override
