@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    <string name="partly_cloudy">Partly Cloudy</string>
+    <string name="showers">Showers</string>
+    <string name="rain">Rain</string>
+    <string name="sunny">Sunny</string>
+    <string name="scattered_showers">Scatered Showers</string>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="thunderstorms">Thunderstorms</string>
 </resources>

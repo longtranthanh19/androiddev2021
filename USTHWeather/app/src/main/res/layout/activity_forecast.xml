@@ -7,6 +7,9 @@
     android:layout_margin="16dp"
     tools:context=".ForecastActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -25,7 +28,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Mon" />
+                android:text="@string/Monday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -44,7 +47,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Partly Cloudy" />
+                    android:text="@string/partly_cloudy" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -64,7 +67,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tue" />
+                android:text="@string/Tuesday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -83,7 +86,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Showers" />
+                    android:text="@string/showers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -103,7 +106,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Wed" />
+                android:text="@string/Wednesday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -122,7 +125,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rain" />
+                    android:text="@string/rain" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -142,7 +145,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Thur" />
+                android:text="@string/Thursday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -161,7 +164,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Scattered Showers" />
+                    android:text="@string/scattered_showers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -181,7 +184,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Fri" />
+                android:text="@string/Friday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -200,7 +203,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mostly Cloudy" />
+                    android:text="@string/mostly_cloudy" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -220,7 +223,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Sat" />
+                android:text="@string/Saturday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -239,7 +242,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Partly Cloudy" />
+                    android:text="@string/partly_cloudy" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -259,7 +262,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Sun" />
+                android:text="@string/Sunday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -278,7 +281,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thunderstorms" />
+                    android:text="@string/thunderstorms" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -298,7 +301,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Mon" />
+                android:text="@string/Monday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -317,7 +320,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Scattered Thunderstomrs" />
+                    android:text="@string/scattered_showers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -337,7 +340,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tue" />
+                android:text="@string/Tuesday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -356,7 +359,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Showers" />
+                    android:text="@string/showers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -376,7 +379,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Wed" />
+                android:text="@string/Wednesday" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -395,7 +398,46 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Scattered Thunderstorms" />
+                    android:text="@string/scattered_showers" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23⁰C - 27⁰C"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Thursday" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:src="@drawable/chance_of_storm" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scattered_showers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -405,4 +447,5 @@
         </LinearLayout>
 
     </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
