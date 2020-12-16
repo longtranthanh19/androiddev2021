@@ -13,9 +13,9 @@ public class ForecastActivity extends Fragment {
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container,
                              Bundle SaveInstanceState) {
-        View weatherFragment = inflater.inflate(R.layout.activity_forecast, container, false);
-        weatherFragment.setBackgroundColor(Color.parseColor("#BEC4F1"));
+        View forecastFragment = inflater.inflate(R.layout.activity_forecast, container, false);
+//        forecastFragment.setBackgroundColor(Color.parseColor("#BEC4F1"));
 
-        return weatherFragment;
+        return forecastFragment;
     }
 }
