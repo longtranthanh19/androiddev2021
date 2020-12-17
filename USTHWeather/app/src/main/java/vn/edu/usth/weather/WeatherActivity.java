@@ -11,8 +11,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 
 import android.util.Log;
+
+import com.google.android.material.tabs.TabLayout;
 
 
 public class WeatherActivity extends AppCompatActivity {
@@ -33,6 +36,8 @@ public class WeatherActivity extends AppCompatActivity {
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(pager);
     }
 
     @Override
@@ -67,6 +72,7 @@ public class WeatherActivity extends AppCompatActivity {
 
     public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         private final int PAGE_COUNT = 3;
+        private String titles[] = new String[] { "Hanoi", "Paris", "Toulouse" };
         public HomeFragmentPagerAdapter(FragmentManager fm) {
             super(fm);
         }
@@ -87,6 +93,11 @@ public class WeatherActivity extends AppCompatActivity {
                     return new WeatherAndForecastFragment();
             }
             return new Fragment();
+
+        }
+        @Override
+        public CharSequence getPageTitle(int page){
+            return titles[page];
         }
     }
 }
