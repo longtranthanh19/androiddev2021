@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="action_settings">Cài Đặt</string>
     <string name="Monday">Thứ Hai</string>
     <string name="Tuesday">Thứ Ba</string>
     <string name="Wednesday">Thứ Tư</string>
@@ -17,4 +18,5 @@
     <string name="thunderstorms">Sấm Sét</string>
     <string name="paris">Paris</string>
     <string name="detail_forecast">24⁰C\nCó Mây</string>
+    <string name="action_refresh">Làm Mới</string>
 </resources>

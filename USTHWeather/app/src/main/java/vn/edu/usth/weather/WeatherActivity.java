@@ -3,7 +3,10 @@ package vn.edu.usth.weather;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Toast;
+import android.content.Intent;
 
+import android.view.Menu;
+import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
@@ -104,6 +107,28 @@ public class WeatherActivity extends AppCompatActivity {
         @Override
         public CharSequence getPageTitle(int page){
             return titles[page];
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_refresh:
+                Toast.makeText(this, "Refreshing...", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.action_settings:
+                Log.d(tag, "onOptionsItemSelected: click");
+                Intent intent = new Intent(this, PrefActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 
