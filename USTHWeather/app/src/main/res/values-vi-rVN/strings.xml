@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <string name="Monday">Thứ Hai</string>
+    <string name="Tuesday">Thứ Ba</string>
+    <string name="Wednesday">Thứ Tư</string>
+    <string name="Thursday">Thứ Năm</string>
+    <string name="Friday">Thứ Sáu</string>
+    <string name="Saturday">Thứ Bảy</string>
+    <string name="Sunday">Chủ Nhật</string>
+    <string name="partly_cloudy">Có Mây</string>
+    <string name="showers">Có Mưa</string>
+    <string name="rain">Mưa</string>
+    <string name="sunny">Nắng Ấm</string>
+    <string name="scattered_showers">Mưa Rải Rác</string>
+    <string name="mostly_cloudy">Nhiều Mây</string>
+    <string name="thunderstorms">Sấm Sét</string>
+    <string name="paris">Paris</string>
+    <string name="detail_forecast">24⁰C\nCó Mây</string>
+</resources>

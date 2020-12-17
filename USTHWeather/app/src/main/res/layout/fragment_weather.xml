@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d5ffd6"
+    android:background="@color/weather_fragment_background"
     tools:context=".WeatherFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,8 +13,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="12C\nCloudy"
-            ></TextView>
+            android:text="@string/detail_forecast"
+            android:layout_gravity="top"></TextView>
 
         <TextView
             android:layout_width="wrap_content"

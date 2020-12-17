@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="@dimen/layout_margin"
     tools:context=".ForecastActivity">
 
     <ScrollView
@@ -24,24 +24,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Monday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/partly_cloudy" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -63,24 +63,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Tuesday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/rain" />
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -102,24 +102,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Wednesday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="16dp"
                 android:src="@drawable/rain" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -141,24 +141,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Thursday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/chance_of_storm" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -180,24 +180,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Friday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/partly_cloudy" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -219,24 +219,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Saturday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/partly_cloudy" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -258,24 +258,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Sunday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/storm" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -297,24 +297,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Monday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/chance_of_storm" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -336,24 +336,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Tuesday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/rain" />
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -375,24 +375,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Wednesday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/chance_of_storm" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
@@ -414,24 +414,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/Thursday" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:src="@drawable/chance_of_storm" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/forecast_layout_width"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:padding="16dp"
+                android:padding="@dimen/forecast_layout_padding"
                 android:orientation="vertical">
 
                 <TextView
