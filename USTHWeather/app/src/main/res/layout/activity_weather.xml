@@ -5,35 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WeatherActivity">
-    <LinearLayout
+
+    <androidx.viewpager.widget.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="370dp"
-            android:layout_margin="8px"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <fragment
-                android:id="@+id/weatherfraglayout"
-                android:name="vn.edu.usth.weather.WeatherFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"></fragment>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="8px"
-            android:layout_weight="1"
-            android:id="@+id/container"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-    </LinearLayout>
+    </androidx.viewpager.widget.ViewPager>
 </androidx.constraintlayout.widget.ConstraintLayout>
