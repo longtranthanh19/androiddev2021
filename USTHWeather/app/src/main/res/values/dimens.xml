@@ -3,4 +3,5 @@
     <dimen name="layout_margin">16dp</dimen>
     <dimen name="forecast_layout_width">0dp</dimen>
     <dimen name="forecast_layout_padding">16dp</dimen>
+    <dimen name="weather_fragment_layout_margin">30dp</dimen>
 </resources>

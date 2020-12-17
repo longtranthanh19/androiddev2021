@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/weather_fragment_background"
-    tools:context=".WeatherFragment">
+    tools:context=".WeatherFragment"
+    android:background="@drawable/frame">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/weather_fragment_layout_margin"
             android:text="@string/detail_forecast"
             android:layout_gravity="top"></TextView>
 
@@ -21,13 +22,14 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/weather_fragment_layout_margin"
             android:text="@string/paris"></TextView>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/clouds">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/clouds">
 
-        </ImageView>
+    </ImageView>
 </RelativeLayout>
