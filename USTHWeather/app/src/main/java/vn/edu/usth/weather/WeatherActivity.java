@@ -17,6 +17,7 @@ import com.google.android.material.tabs.TabLayout;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.os.AsyncTask;
 
 import android.util.Log;
 
@@ -124,6 +125,7 @@ public class WeatherActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_refresh:
                 refresh();
+                new refresh_new().execute();
                 return true;
             case R.id.action_settings:
                 Log.d(tag, "onOptionsItemSelected: click");
@@ -192,6 +194,26 @@ public class WeatherActivity extends AppCompatActivity {
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    private class refresh_new extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected Void doInBackground(Void... voids){
+            try {
+                Thread.sleep(10000);
+            }
+            catch (InterruptedException e){
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        protected void onProgressUpdate(Void... voids){}
+
+        @Override
+        protected void onPostExecute(Void voids){
+            Toast.makeText(getApplicationContext(), "Refreshing Again...", Toast.LENGTH_SHORT).show();
+            return;
         }
     }
 }
